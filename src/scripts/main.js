@@ -13,3 +13,6 @@ for (let i = 0; i < classChange.length; i++) {
 const removeDashed = document.querySelector(".dashed")
 removeDashed.remove("dashed")
 
+// Obtain a reference the element with a class of article_footer and add the class of goldenrod it
+const goldenrodClass = document.querySelector(".article__footer")
+goldenrodClass.classList.add("goldenrod")
