@@ -1,14 +1,33 @@
+body {
+    font-family: barlow,sans-serif;
+    background-color: #f8f7f0;
+}
+
 .article {
     padding: 10px;
-    border: 1px solid blue;
+    border: 1px solid #87240f;
 }
 
 .article__header {
-    font-size: 1.5em;
+    font-size: 36px;
+    font-family: vollkorn,sans-serif;
+    color: #2c2823;
+    font-weight: 700;
+    box-shadow: inset 0 -10px 0 0 #f8f7f0, inset 0 -20px 0 0 #eedfce;
+    margin-bottom: 5px;
+    display: inline;
 }
 
 .article__footer {
     padding: 0 30px;
+    font-family: vollkorn,sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: 1.14;
+    letter-spacing: normal;
+    color: #2c2823;
+
 }
 
 .goldenrod {
@@ -17,4 +36,8 @@
 
 .dashed {
     border: 1px dashed black;
+}
+
+.article__content {
+    color: #2C2823;
 }
