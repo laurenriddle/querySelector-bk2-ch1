@@ -8,3 +8,8 @@ const classChange = document.querySelectorAll(".article__header");
 for (let i = 0; i < classChange.length; i++) {
    classChange[i].classList.add("important");
   }
+
+// Obtain a reference the element with a class of dashed and remove it
+const removeDashed = document.querySelector(".dashed")
+removeDashed.remove("dashed")
+
